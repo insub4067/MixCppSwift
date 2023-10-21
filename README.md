@@ -1,6 +1,6 @@
 # CppPractice
 
-This repo is example of using C++ directly from Swift without Obj-c birdge.
+This repo is example of using C++ directly from Swift without Obj-c bridge.
 
 ## References
 - https://www.swift.org/documentation/cxx-interop/project-build-setup/
