@@ -1,0 +1,12 @@
+//
+//  CppFramework.modulemap
+//  CppFramework
+//
+//  Created by 조수환 on 10/21/23.
+//
+
+framework module CppFramework {
+    umbrella header "CppFramework.h"
+
+    export *
+}
