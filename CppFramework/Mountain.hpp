@@ -6,7 +6,6 @@
 //
 
 #ifndef Mountain_hpp
-#define Mountain_hpp
 
 #include <stdio.h>
 #include <string>
