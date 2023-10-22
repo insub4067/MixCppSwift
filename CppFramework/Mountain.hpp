@@ -17,7 +17,6 @@ public:
     void setHeight(double height);
 
 private:
-    int retainCount = 0;
     std::string name;
     double height;
 };
