@@ -16,9 +16,13 @@ public:
     Mountain(std::string name, double height);
     void displayInfo();
     void setHeight(double height);
+    static Mountain* _Nonnull create(std::string name, double height);
 
 private:
-    int retainCount = 0;
-    std::string name;
+    const std::string name;
     double height;
-} SWIFT_SHARED_REFERENCE(mountainRetain,mountainRelease);
+} SWIFT_SHARED_REFERENCE(mountainRetain, mountainRelease);
+
+void mountainRetain(Mountain* _Nonnull mountain);
+
+void mountainRelease(Mountain* _Nonnull mountain);

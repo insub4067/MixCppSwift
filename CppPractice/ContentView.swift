@@ -18,8 +18,12 @@ struct ContentView: View {
         }
         .padding()
         .onAppear(perform: {
-            var mountain = Mountain("관악산", 632)
-            mountain.displayInfo()
+            if #available(iOS 16.4.0, *) {
+                let mountain = Mountain.create("관악산", 632)
+                mountain.displayInfo()
+            } else {
+                // Fallback on earlier versions
+            }
         })
     }
 }

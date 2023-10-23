@@ -9,9 +9,12 @@
 #include <CppFramework/Mountain.hpp>
 #include <iostream>
 
-Mountain::Mountain(std::string name, double height) {
-    this->name = name;
-    this->height = height;
+Mountain::Mountain(std::string name, double height): name(name), height(height) {}
+
+Mountain* _Nonnull Mountain::create(std::string name, double height) {
+    auto result = new Mountain(name, height);
+
+    return result;
 }
 
 void Mountain::displayInfo() {
@@ -23,10 +26,10 @@ void Mountain::setHeight(double height) {
     this->height = height;
 }
 
-void mountainRetain(Mountain *mountain) {
+void mountainRetain(Mountain* _Nonnull mountain) {
     mountain->retain();
 }
 
-void mountainRelease(Mountain *mountain) {
+void mountainRelease(Mountain* _Nonnull mountain) {
     mountain->release();
 }
