@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		422B63C22AE471CF0072EECF /* Mountain.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 422B63C02AE470D80072EECF /* Mountain.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8C2B412AE4F4F50053F52C /* IntrusiveRefCounted.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FB8C2B3F2AE4F4F50053F52C /* IntrusiveRefCounted.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB90B4E92AE3DC2200564514 /* CppPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90B4E82AE3DC2200564514 /* CppPracticeApp.swift */; };
 		FB90B4EB2AE3DC2200564514 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90B4EA2AE3DC2200564514 /* ContentView.swift */; };
 		FB90B4ED2AE3DC2400564514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB90B4EC2AE3DC2400564514 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		422B63C02AE470D80072EECF /* Mountain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mountain.hpp; sourceTree = "<group>"; };
+		FB8C2B3F2AE4F4F50053F52C /* IntrusiveRefCounted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntrusiveRefCounted.hpp; sourceTree = "<group>"; };
 		FB90B4E52AE3DC2200564514 /* CppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB90B4E82AE3DC2200564514 /* CppPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CppPracticeApp.swift; sourceTree = "<group>"; };
 		FB90B4EA2AE3DC2200564514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				FB90B5382AE3E19500564514 /* CppFramework.h */,
 				422B63C02AE470D80072EECF /* Mountain.hpp */,
 				FB90B5412AE3E1AC00564514 /* Mountain.cpp */,
+				FB8C2B3F2AE4F4F50053F52C /* IntrusiveRefCounted.hpp */,
 			);
 			path = CppFramework;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB90B5392AE3E19500564514 /* CppFramework.h in Headers */,
+				FB8C2B412AE4F4F50053F52C /* IntrusiveRefCounted.hpp in Headers */,
 				422B63C22AE471CF0072EECF /* Mountain.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

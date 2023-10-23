@@ -5,7 +5,8 @@
 //  Created by 김인섭 on 10/21/23.
 //
 
-#include "Mountain.hpp"
+#include <CppFramework/IntrusiveRefCounted.hpp>
+#include <CppFramework/Mountain.hpp>
 #include <iostream>
 
 Mountain::Mountain(std::string name, double height) {
@@ -20,4 +21,12 @@ void Mountain::displayInfo() {
 
 void Mountain::setHeight(double height) {
     this->height = height;
+}
+
+void mountainRetain(Mountain *mountain) {
+    mountain->retain();
+}
+
+void mountainRelease(Mountain *mountain) {
+    mountain->release();
 }
