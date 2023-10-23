@@ -10,6 +10,7 @@
 		422B63C22AE471CF0072EECF /* Mountain.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 422B63C02AE470D80072EECF /* Mountain.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB696F7D2AE6916C0065AEFD /* CppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB696F7B2AE6916C0065AEFD /* CppClass.cpp */; };
 		FB696F7E2AE6916C0065AEFD /* CppClass.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FB696F7C2AE6916C0065AEFD /* CppClass.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB696FBC2AE6B6D70065AEFD /* IntrusiveRefCounted.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FB696FBA2AE6B6D70065AEFD /* IntrusiveRefCounted.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB90B4E92AE3DC2200564514 /* CppPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90B4E82AE3DC2200564514 /* CppPracticeApp.swift */; };
 		FB90B4EB2AE3DC2200564514 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90B4EA2AE3DC2200564514 /* ContentView.swift */; };
 		FB90B4ED2AE3DC2400564514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB90B4EC2AE3DC2400564514 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		422B63C02AE470D80072EECF /* Mountain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mountain.hpp; sourceTree = "<group>"; };
 		FB696F7B2AE6916C0065AEFD /* CppClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CppClass.cpp; sourceTree = "<group>"; };
 		FB696F7C2AE6916C0065AEFD /* CppClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CppClass.hpp; sourceTree = "<group>"; };
+		FB696FBA2AE6B6D70065AEFD /* IntrusiveRefCounted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntrusiveRefCounted.hpp; sourceTree = "<group>"; };
 		FB90B4E52AE3DC2200564514 /* CppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB90B4E82AE3DC2200564514 /* CppPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CppPracticeApp.swift; sourceTree = "<group>"; };
 		FB90B4EA2AE3DC2200564514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		422B63C42AE6AA770072EECF /* include */ = {
 			isa = PBXGroup;
 			children = (
+				FB696FB82AE6B6D10065AEFD /* IntrusiveRefCounted */,
 				422B63C72AE6AB400072EECF /* CppClass */,
 				422B63C62AE6AB360072EECF /* Mountain */,
 			);
@@ -126,6 +129,14 @@
 				FB696F7B2AE6916C0065AEFD /* CppClass.cpp */,
 			);
 			path = CppClass;
+			sourceTree = "<group>";
+		};
+		FB696FB82AE6B6D10065AEFD /* IntrusiveRefCounted */ = {
+			isa = PBXGroup;
+			children = (
+				FB696FBA2AE6B6D70065AEFD /* IntrusiveRefCounted.hpp */,
+			);
+			path = IntrusiveRefCounted;
 			sourceTree = "<group>";
 		};
 		FB90B4DC2AE3DC2200564514 = {
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB90B5392AE3E19500564514 /* CppFramework.h in Headers */,
+				FB696FBC2AE6B6D70065AEFD /* IntrusiveRefCounted.hpp in Headers */,
 				FB696F7E2AE6916C0065AEFD /* CppClass.hpp in Headers */,
 				422B63C22AE471CF0072EECF /* Mountain.hpp in Headers */,
 			);

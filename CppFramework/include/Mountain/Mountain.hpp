@@ -7,17 +7,22 @@
 
 #pragma once
 
-#include <string>
+#include <CppFramework/IntrusiveRefCounted.hpp>
 #include <swift/bridging>
-#include <CppFramework/CppClass.hpp>
+#include <string>
 
-class Mountain {
+class Mountain: public IntrusiveRefCounted<Mountain> {
 public:
     Mountain(std::string name, double height);
     void displayInfo();
     void setHeight(double height);
+    static Mountain* _Nonnull create(std::string name, double height);
 
 private:
-    std::string name;
+    const std::string name;
     double height;
-};
+} SWIFT_SHARED_REFERENCE(mountainRetain, mountainRelease);
+
+void mountainRetain(Mountain* _Nonnull mountain);
+
+void mountainRelease(Mountain* _Nonnull mountain);
