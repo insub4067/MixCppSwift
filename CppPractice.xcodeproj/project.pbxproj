@@ -78,13 +78,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB696F7A2AE6915F0065AEFD /* Files */ = {
+		422B63C42AE6AA770072EECF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				422B63C72AE6AB400072EECF /* CppClass */,
+				422B63C62AE6AB360072EECF /* Mountain */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		422B63C52AE6AA9A0072EECF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				422B63C92AE6AB540072EECF /* CppClass */,
+				422B63C82AE6AB4A0072EECF /* Mountain */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		422B63C62AE6AB360072EECF /* Mountain */ = {
+			isa = PBXGroup;
+			children = (
+				422B63C02AE470D80072EECF /* Mountain.hpp */,
+			);
+			path = Mountain;
+			sourceTree = "<group>";
+		};
+		422B63C72AE6AB400072EECF /* CppClass */ = {
+			isa = PBXGroup;
+			children = (
+				FB696F7C2AE6916C0065AEFD /* CppClass.hpp */,
+			);
+			path = CppClass;
+			sourceTree = "<group>";
+		};
+		422B63C82AE6AB4A0072EECF /* Mountain */ = {
+			isa = PBXGroup;
+			children = (
+				FB90B5412AE3E1AC00564514 /* Mountain.cpp */,
+			);
+			path = Mountain;
+			sourceTree = "<group>";
+		};
+		422B63C92AE6AB540072EECF /* CppClass */ = {
 			isa = PBXGroup;
 			children = (
 				FB696F7B2AE6916C0065AEFD /* CppClass.cpp */,
-				FB696F7C2AE6916C0065AEFD /* CppClass.hpp */,
 			);
-			path = Files;
+			path = CppClass;
 			sourceTree = "<group>";
 		};
 		FB90B4DC2AE3DC2200564514 = {
@@ -136,10 +177,9 @@
 		FB90B5372AE3E19500564514 /* CppFramework */ = {
 			isa = PBXGroup;
 			children = (
+				422B63C52AE6AA9A0072EECF /* lib */,
+				422B63C42AE6AA770072EECF /* include */,
 				FB90B5382AE3E19500564514 /* CppFramework.h */,
-				422B63C02AE470D80072EECF /* Mountain.hpp */,
-				FB90B5412AE3E1AC00564514 /* Mountain.cpp */,
-				FB696F7A2AE6915F0065AEFD /* Files */,
 			);
 			path = CppFramework;
 			sourceTree = "<group>";

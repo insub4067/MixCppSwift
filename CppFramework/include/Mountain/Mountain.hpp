@@ -9,7 +9,7 @@
 
 #include <string>
 #include <swift/bridging>
-#include "Files/CppClass.hpp"
+#include <CppFramework/CppClass.hpp>
 
 class Mountain {
 public:
